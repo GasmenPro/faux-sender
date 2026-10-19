@@ -1,0 +1,16 @@
+{
+  "name": "bean-webhook-faux-sender",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Development-only Bean webhook sender with a local dashboard and CLI.",
+  "scripts": {
+    "send": "node src/send.js",
+    "mock": "node src/mock-receiver.js",
+    "test": "node --test",
+    "dashboard": "node src/dashboard-server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}

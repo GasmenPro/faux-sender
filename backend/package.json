@@ -1,0 +1,15 @@
+{
+  "name": "bean-webhook-faux-sender",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "A tiny development-only webhook sender for Bean's ingestion pipeline.",
+  "scripts": {
+    "send": "node src/send.js",
+    "mock": "node src/mock-receiver.js",
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
